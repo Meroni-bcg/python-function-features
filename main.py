@@ -28,3 +28,11 @@ def inner_func(x, y):
 #alias_arb_args - Should be arb_args but assigned an alias. Remember, variables can hold functions in Python just like they can in JS. Alternatively, you can call a function from inside another function.
 
 alias_arb_args = arb_args
+
+#6 arb_mean - Accepts any number of integers and prints their average.
+def arb_mean(*args):
+  total = 0
+  for a in args:
+    total += a
+  print(a / len(args))
+
