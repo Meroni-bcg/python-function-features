@@ -24,3 +24,7 @@ def inner_func(x, y):
     #sum_n_product - Accepts two integers and returns both the sum and the product.
     def sum_n_product(x, y):
         return x + y, x * y
+
+#alias_arb_args - Should be arb_args but assigned an alias. Remember, variables can hold functions in Python just like they can in JS. Alternatively, you can call a function from inside another function.
+
+alias_arb_args = arb_args
